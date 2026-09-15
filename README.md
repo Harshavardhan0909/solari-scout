@@ -70,7 +70,9 @@ Clone the repository and install dependencies:
 
 # Correct syntax for README code blocks:
 git clone https://github.com/Harshavardhan0909/solari-scout.git
+
 cd solari-scout
+
 pip install -r requirements.txt
 
 
