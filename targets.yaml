@@ -1,0 +1,17 @@
+targets:
+  - name: "Competitor X"
+    urls:
+      - https://competitor-x.com/pricing
+      - https://competitor-x.com/changelog
+      - https://competitor-x.com/careers
+    geo: "us-east"
+    browser_options:
+      viewport: "1920x1080"
+      wait_until: "networkidle"
+
+report:
+  format: markdown
+  output_dir: ./reports
+  ai_model: "gpt-4o"
+  notify:
+    slack_webhook: "${SLACK_WEBHOOK_URL}"
