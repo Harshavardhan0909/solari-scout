@@ -68,7 +68,8 @@ Redeem code `STARTER1MO-MKY4BNDK` at [console.getsolari.com](https://console.get
 Clone the repository and install dependencies:
 
 
-git clone [https://github.com/YOUR_USERNAME/solari-scout.git](https://github.com/YOUR_USERNAME/solari-scout.git)
+# Correct syntax for README code blocks:
+git clone https://github.com/Harshavardhan0909/solari-scout.git
 cd solari-scout
 pip install -r requirements.txt
 
